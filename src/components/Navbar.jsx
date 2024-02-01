@@ -5,18 +5,41 @@ function Navbar() {
     <>
       <header className="navbar fixed z-50 bg-[#000] text-[#eee]">
         <div className="navbar-start">
-          <Link to={'/'} className="btn btn-ghost text-xl">
+          <Link
+            aria-label="navigate to home page"
+            to={"/"}
+            className="btn btn-ghost text-xl"
+          >
             {"start framework".toUpperCase()}
           </Link>
         </div>
         <div className="navbar-end  max-md:hidden">
-          <Link to={'/about'} className="btn btn-ghost text-xl">{"about".toUpperCase()}</Link>
-          <Link to={'/portfolio'} className="btn btn-ghost text-xl">{"portfolio".toUpperCase()}</Link>
-          <Link to={'/contact'} className="btn btn-ghost text-xl">{"contact".toUpperCase()}</Link>
+          <Link
+            aria-label="navigate to about page"
+            to={"/about"}
+            className="btn btn-ghost text-xl"
+          >
+            {"about".toUpperCase()}
+          </Link>
+          <Link
+            aria-label="navigate to portfolio page"
+            to={"/portfolio"}
+            className="btn btn-ghost text-xl"
+          >
+            {"portfolio".toUpperCase()}
+          </Link>
+          <Link
+            aria-label="navigate to contacts page"
+            to={"/contact"}
+            className="btn btn-ghost text-xl"
+          >
+            {"contact".toUpperCase()}
+          </Link>
         </div>
         <div dir="rtl" className="navbar-start md:hidden">
           <div className="dropdown">
             <div
+              aria-label="dropdown for mobile view"
               tabIndex={0}
               role="button"
               className="btn btn-ghost btn-circle"
@@ -41,13 +64,19 @@ function Navbar() {
               className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-[#000] rounded-box w-52"
             >
               <li>
-                <Link to={'/about'}>About</Link>
+                <Link aria-label="navigate to about page" to={"/about"}>
+                  About
+                </Link>
               </li>
               <li>
-                <Link to={'/portfolio'}>Portfolio</Link>
+                <Link aria-label="navigate to portfolio page" to={"/portfolio"}>
+                  Portfolio
+                </Link>
               </li>
               <li>
-                <Link to={'/contact'}>Contact</Link>
+                <Link aria-label="navigate to contacts page" to={"/contact"}>
+                  Contact
+                </Link>
               </li>
             </ul>
           </div>

@@ -60,7 +60,7 @@ function Contact() {
                 </label>
               </div>
               <div className="form-control mt-6">
-                <button className="btn btn-primary">Send message</button>
+                <button aria-label="submits form" className="btn btn-primary">Send message</button>
               </div>
             </form>
           </div>
