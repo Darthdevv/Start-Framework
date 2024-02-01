@@ -3,7 +3,7 @@ import myImg from "../images/peep-1.png";
 function Home() {
   return (
     <>
-      <main className="hero min-h-screen bg-indigo-500 text-[#121212]">
+      <main className="hero min-h-screen bg-pink-700 text-[#eee]">
         <div className="hero-content text-center">
           <div className="max-w-md">
             <img className="w-[100%] max-sm:w-[70%] max-sm:ml-[60px]" src={myImg} alt="profilePicture" />

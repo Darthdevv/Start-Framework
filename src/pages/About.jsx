@@ -3,7 +3,7 @@
 function About() {
   return (
     <>
-      <main className="hero min-h-screen bg-indigo-500 text-[#121212]">
+      <main className="hero min-h-screen bg-pink-700 text-[#eee]">
         <div className="hero-content">
           <div className="max-w-[920px]">
             <h1 className="text-center text-4xl font-bold">{"About ".toUpperCase()}</h1>

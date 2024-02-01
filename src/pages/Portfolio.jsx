@@ -4,7 +4,7 @@ import myGif1 from '../images/pixel1.gif';
 function Portfolio() {
   return (
     <>
-      <main className="hero min-h-screen pt-[50px] bg-indigo-500 text-[#121212]">
+      <main className="hero min-h-screen pt-[50px] bg-pink-700 text-[#eee]">
         <div className="hero-content">
           <div className="max-w-[1020px]">
             <h1 className="text-center pt-[20px] text-4xl font-bold">
